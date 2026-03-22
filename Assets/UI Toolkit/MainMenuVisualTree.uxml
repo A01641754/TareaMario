@@ -4,17 +4,13 @@
         <ui:VisualElement name="VisualElement" class="contenedores" style="flex-shrink: 0; width: 1500px; height: 125px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px; border-bottom-left-radius: 30px; bottom: 40px;">
             <ui:Label text="Tarea Unity" name="Titulo" style="font-size: 80px; -unity-font-style: bold; -unity-text-align: upper-center; color: rgb(255, 255, 255);"/>
         </ui:VisualElement>
-        <ui:VisualElement name="Menu" class="contenedores" style="width: 1000px; height: 800px; justify-content: center; align-items: center; flex-shrink: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-left-radius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px; border-bottom-left-radius: 30px;">
-            <ui:Label text="Label" name="Header2" class="header">
-                <ui:Button text="Jugar" class="button" style="justify-content: flex-start;"/>
-            </ui:Label>
-            <ui:Label text="Label" name="Header3">
-                <ui:Button text="Ayuda" class="button" style="background-color: rgba(188, 188, 188, 0);"/>
-            </ui:Label>
-            <ui:Label text="Label" name="Header" class="header">
-                <ui:Button text="Créditos" class="button"/>
-            </ui:Label>
+        <ui:VisualElement name="Menu" class="contenedores" style="width: 1000px; height: 700px; justify-content: center; align-items: center; flex-shrink: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-left-radius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px; border-bottom-left-radius: 30px;">
+            <ui:Button text="Jugar" name="Jugar" class="button" style="justify-content: flex-start;"/>
+            <ui:Button text="Ayuda" name="Ayuda" class="button" style="background-color: rgba(188, 188, 188, 0);"/>
+            <ui:Button text="Créditos" name="Creditos" class="button"/>
         </ui:VisualElement>
-        <ui:Label text="Eduardo Márquez López"/>
+        <ui:Label text="Eduardo Márquez López A01641754" name="Label" style="align-self: flex-end; font-size: 35px; color: rgb(253, 245, 230); -unity-font-style: bold-and-italic; -unity-text-align: upper-left; right: 100px;"/>
+        <ui:VisualElement name="VentanaAyuda" style="flex-grow: 1; display: none;"/>
     </ui:VisualElement>
+    <ui:VisualElement name="Creditos" style="flex-grow: 1;"/>
 </ui:UXML>
