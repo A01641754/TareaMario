@@ -1,0 +1,20 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/MainMenuStyle.uss?fileID=7433441132597879392&amp;guid=706e77a6267bca24db2c4b6a86c3fbe6&amp;type=3#MainMenuStyle"/>
+    <ui:VisualElement name="Container" style="justify-content: center; align-self: auto; align-content: auto; align-items: center; background-image: url(&quot;project://database/Assets/Brackeys/2D%20Mega%20Pack/Backgrounds/DustyBackground.png?fileID=2800000&amp;guid=921dcff1d0da9eb409b4b461084190e2&amp;type=3#DustyBackground&quot;); flex-shrink: 0; width: 100%; height: 100%; background-color: rgba(98, 98, 98, 0); -unity-background-image-tint-color: rgba(255, 255, 255, 0);">
+        <ui:VisualElement name="VisualElement" class="contenedores" style="flex-shrink: 0; width: 1500px; height: 125px; border-top-width: 0; border-right-width: 0; border-bottom-width: 0; border-left-width: 0; border-top-left-radius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px; border-bottom-left-radius: 30px; bottom: 40px;">
+            <ui:Label text="Tarea Unity" name="Titulo" style="font-size: 80px; -unity-font-style: bold; -unity-text-align: upper-center; color: rgb(255, 255, 255);"/>
+        </ui:VisualElement>
+        <ui:VisualElement name="Menu" class="contenedores" style="width: 1000px; height: 800px; justify-content: center; align-items: center; flex-shrink: 0; padding-top: 0; padding-right: 0; padding-bottom: 0; padding-left: 0; border-top-left-radius: 30px; border-top-right-radius: 30px; border-bottom-right-radius: 30px; border-bottom-left-radius: 30px;">
+            <ui:Label text="Label" name="Header2" class="header">
+                <ui:Button text="Jugar" class="button" style="justify-content: flex-start;"/>
+            </ui:Label>
+            <ui:Label text="Label" name="Header3">
+                <ui:Button text="Ayuda" class="button" style="background-color: rgba(188, 188, 188, 0);"/>
+            </ui:Label>
+            <ui:Label text="Label" name="Header" class="header">
+                <ui:Button text="Créditos" class="button"/>
+            </ui:Label>
+        </ui:VisualElement>
+        <ui:Label text="Eduardo Márquez López"/>
+    </ui:VisualElement>
+</ui:UXML>
